@@ -5,6 +5,7 @@ metadata:
     argocd.argoproj.io/sync-options: Validate=false
     openshift.io/host.generated: "true"
   name: express-sample-app
+  namespace: dezhao-liu
 spec:
   tls:
     termination: edge
